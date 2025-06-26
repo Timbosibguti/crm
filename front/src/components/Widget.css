@@ -1,0 +1,12 @@
+.main-widget {
+    display: flex;
+    border-radius: 20px;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    width: 12%;
+    height: 140px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #80808024;
+}

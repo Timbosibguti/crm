@@ -1,0 +1,67 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 13px;
+  }
+  
+  th {
+    background-color: #007bff;
+    color: #fff;
+}
+  main {
+    overflow: hidden;
+    width: 100%;
+    margin: 1% 0% 2% 0%;
+    height: 92vh;
+}
+.data-leads {
+  overflow: scroll;
+  height: 100%;
+}
+.filter-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.filter-container input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid;
+}
+thead{
+  position: sticky;
+  top: 0;
+}
+select {
+  width: 200px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  font-size: 16px;
+}
+
+/* Стилизация опций */
+select option {
+  padding: 10px;
+  background-color: #fff;
+}
+.lead-success{
+  background-color: green;
+  color: #fff;
+  text-align: center;
+}
+.lead-fall{
+  background-color: red;
+  color: #fff;
+  text-align: center;
+}

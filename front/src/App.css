@@ -1,0 +1,38 @@
+.flex-main {
+  display: flex;
+  gap: 25px;
+  height: 100vh;
+}
+body.dark td {
+  color: #fff;
+}
+::-webkit-scrollbar {
+  width: 10px; 
+}
+
+::-webkit-scrollbar-track {
+  background: #607d8b00; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #007bff; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+body.dark .menu {
+  box-shadow: 0 0 6px #ffffff85;
+}
+body.dark {
+  background: #3b3b3b;
+}
+body.dark h2{
+  color: #fff;
+}
+body.dark input, body.dark select, body.dark option{
+  background-color: #3b3b3b;
+  color: #fff;
+}

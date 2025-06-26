@@ -1,0 +1,45 @@
+/* src/components/Sidebar.css */
+.menu {
+  width: 250px;
+  background-color: #3b3b3b;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 1% 0% 2% 1%;
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+  
+  .menu nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu nav ul li {
+    margin: 10px 0;
+  }
+  
+  .menu nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    display: block;
+  }
+  
+  .menu nav ul li a.active {
+    background-color: #007bff;
+    color: white;
+    border-radius: 20px;
+}
+span.brand {
+  color: #fff;
+  text-align: center;
+}
+.theme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
